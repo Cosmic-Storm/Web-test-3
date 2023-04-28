@@ -1,0 +1,366 @@
+#main{
+        background-color: rgb(0, 0, 0);
+}
+
+.h1 {
+        color: black;
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.h2 {
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.h3 {
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.title {
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.row {
+        padding: center;
+        text-align: center;
+        color: rgb(83, 42, 0) ;
+        border-width: 3px;
+        border-color:rgb(83, 42, 0) ;
+        max-width: 100%;
+}
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+        max-width: 100%;
+}
+
+.pg-head {
+        border-color: saddlebrown;
+        background-color: rgb(105, 81, 0);
+        color: black;
+}
+
+.row2:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+.col2 {
+        float: left;
+        width: 50%;
+        text-align: center;
+        column-fill: auto;
+        font-family: 'Roboto', sans-serif;
+        display: inline;    
+        padding-top: 40px;     
+}
+
+
+.col2-img {
+        padding-bottom: 11px;
+}
+
+.col-art-text {
+        margin-top: 83px;
+        text-align: center;        
+        padding-right: 49px;
+        color: silver;  
+        padding-bottom: 11px;             
+}
+
+#pg-nav {
+        text-align: center;
+}
+
+#pg-nav a {
+        position:fixed;
+        left: -50px;
+        transition: 0.1s;
+        padding: 4px;
+        width: 125px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(255, 254, 246);
+        border-radius: 3px 4px 1px 3px;
+        padding-top: 11px; 
+}
+      
+#pg-nav a:hover {
+        left: 0;
+        background-color: darkgoldenrod;
+}
+      
+    #Home {
+        top: 170px;
+        background-color: slategray;
+        text-align: center;
+              
+}
+      
+    #Portfolio {
+        top: 235px;
+        background-color: slategray;
+        text-align: center;
+}
+      
+    #About-Us {
+        top: 295px;
+        background-color: slategray;
+        text-align: center;
+}
+    
+    #Artstation {
+        top: 355px;
+        background-color: slategray;
+        text-align: center;
+}
+
+.col {
+        float: left;
+        width: 33.33%;
+        background-color: rgb(83, 42, 0);
+        color: black;
+}
+
+.rw-7{
+        background-color: rgb(148, 138, 138);
+        content: "";
+        clear: both;
+        padding-bottom: 14px;
+        max-width: 100%;
+}
+
+.container{
+        max-width: 100%;
+}
+
+.col-3{
+        float: left;
+        width: 25%;
+        background-color: rgb(148, 138, 138);
+}
+
+.col-md-6 {
+        color: lightsteelblue;
+}
+
+.small {
+        padding-top: 5.5px;
+        text-align: center;
+        color: lightsteelblue;
+        font-family: 'Roboto', sans-serif;
+}
+
+.mb-0 {
+        padding-top: 0px;
+}
+
+.text-white {
+        color: lightsteelblue;
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.list-unstyled {
+        list-style: none;
+        text-align: center;
+        padding-left: 1px;
+        font-family: 'Roboto', sans-serif;
+}
+
+.small-1 {
+        padding-top: 0px;
+        text-align: center;
+        color: lightsteelblue;
+        font-family: 'Roboto', sans-serif;
+}
+
+.inline{
+        display: inline;
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.art{
+        text-align: center;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.Containers {
+  display: none;
+}
+
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.Back:hover, .forward:hover {
+  background-color: rgba(99, 97, 97, 0.8);
+}
+
+.Info {
+  color: #e3e3e3;
+  font-size: 16px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Tahoma, bold, sans-serif;
+}
+
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+     
+a {
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3s;
+}
+      
+ a:hover, a:focus {
+        text-decoration: none;
+}
+      
+.form-control {
+        background: #212529;
+        border-color: #545454;
+}
+      
+.form-control:focus {
+        background: #212529;
+}
+
+.input-group {
+        text-align: center;
+}
+      
+footer {
+        background: #212529;
+}
+
+body, html {
+        height: 100%;
+        max-width: 100%;
+}
+
+.pargh {
+        background-color: rgb(102, 51, 0);
+}
+
+.A-heading-1 { 
+        color: aliceblue;
+        text-align: center;
+        font-family: Tahoma, bold, sans-serif;
+}
+
+.a-pargh-1 {
+        color: aliceblue;
+        text-align: center;
+        padding-left: 315px;
+        padding-right: 315px; 
+        font-family: 'Roboto', sans-serif;   
+}
+
+.row-3:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+ 
+.a-pargh {
+        color: aliceblue;
+        text-align: center;  
+        padding-left: 55px; 
+        display: inline;
+        padding-top: 4px;
+        font-family: 'Roboto', sans-serif;
+}
+
+.colm-3-1 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        column-fill: auto;
+        padding-top: 4px;
+        padding-right: 80px;
+}
+
+.colm-3-2 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        column-fill: auto;
+        padding-top: 4px;
+        padding-right: 89px;
+}
+    
+.colm-3-3 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        column-fill: auto;
+        padding-top: 4px;
+        padding-left: 49px;        
+}
